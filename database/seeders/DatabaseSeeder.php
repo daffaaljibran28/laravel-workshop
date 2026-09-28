@@ -16,5 +16,8 @@ class DatabaseSeeder extends Seeder
 
         // 3. Jalankan Seeder Supplier
         $this->call(SupplierSeeder::class);
+
+        // 4. Jalankan Seeder User
+        $this->call(UserSeeder::class);
     }
 }
